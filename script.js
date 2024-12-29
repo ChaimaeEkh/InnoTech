@@ -1,226 +1,230 @@
 document.addEventListener('DOMContentLoaded', () => {
   // Translations
   const translations = {
-      "en": {
-          "nav": {
-              "home": "Home",
-              "services": "Services",
-              "about": "About",
-              "products": "Products",
-              "technologies": "Technologies",
-              "portfolio": "Portfolio",
-              "team": "Team",
-              "contact": "Contact"
-          },
-          "sections": {
-              "hero": {
-                  "title": "Transform Your Ideas into Digital Solutions",
-                  "subtitle": "We Create Technologies That Inspire and Innovate"
-              },
-              "services": {
-                  "title": "Our Services",
-                  "items": {
-                      "0": {
-                          "title": "Web Development",
-                          "description": "Modern and performant web solutions"
-                      },
-                      "1": {
-                          "title": "Mobile Applications",
-                          "description": "Innovative apps for iOS and Android"
-                      },
-                      "2": {
-                          "title": "Cloud Computing",
-                          "description": "Secure and scalable cloud solutions"
-                      }
+    "en": {
+        "nav": {
+            "home": "Home",
+            "services": "Services",
+            "about": "About",
+            "products": "Products",
+            "technologies": "Technologies",
+            "portfolio": "Portfolio",
+            "team": "Team",
+            "contact": "Contact"
+        },
+        "sections": {
+            "hero": {
+                "title": "Transform Your Ideas into Digital Solutions",
+                "subtitle": "We Create Technologies That Inspire and Innovate"
+            },
+            "services": {
+                "title": "Our Services",
+                "items": {
+                    "0": {
+                        "title": "Web Development",
+                        "description": "Modern and performant web solutions"
+                    },
+                    "1": {
+                        "title": "Mobile Applications",
+                        "description": "Innovative apps for iOS and Android"
+                    },
+                    "2": {
+                        "title": "Cloud Computing",
+                        "description": "Secure and scalable cloud solutions"
+                    }
+                }
+            },
+            "about": {
+                "title": "Our Mission",
+                "description": "At InnoTech, we believe in the power of technological innovation to transform businesses. Our team of experts combines creativity and technical expertise to develop customized digital solutions."
+            },
+            "products": {
+                "title": "Our Cutting-Edge Products",
+                "description": "Explore our innovative solutions designed to meet the evolving needs of businesses in the digital age.",
+                "items": {
+                    "0": {
+                        "title": "AI-Powered Analytics",
+                        "description": "Leverage the power of artificial intelligence to unlock valuable insights from your data."
+                    },
+                    "1": {
+                        "title": "Cloud Integration Platform",
+                        "description": "Seamlessly connect and manage your business processes with our secure cloud solutions."
+                    },
+                    "2": {
+                        "title": "Advanced Cybersecurity",
+                        "description": "Protect your digital assets with state-of-the-art security systems and real-time monitoring."
+                    }
+                }
+            },
+            "technologies": {
+                "title": "Our Technologies"
+            },
+            "portfolio": {
+                "title": "Our Portfolio"
+            },
+            "team": {
+                "title": "Our Team"
+            }
+        },
+        "contact": {
+            "title": "Contact Us",
+            "name_placeholder": "Your Name",
+            "email_placeholder": "Your Email",
+            "phone_placeholder": "Your Phone Number",
+            "message_placeholder": "Your Message",
+            "submit": "Send Message"
+        }
+    },
+    "fr": {
+        "nav": {
+            "home": "Accueil",
+            "services": "Services",
+            "about": "À propos",
+            "products": "Produits",
+            "technologies": "Technologies",
+            "portfolio": "Portfolio",
+            "team": "Équipe",
+            "contact": "Contact"
+        },
+        "sections": {
+            "hero": {
+                "title": "Transformez vos idées en solutions numériques",
+                "subtitle": "Nous créons des technologies qui inspirent et innovent"
+            },
+            "services": {
+                "title": "Nos Services",
+                "items": {
+                    "0": {
+                        "title": "Développement Web",
+                        "description": "Solutions web modernes et performantes"
+                    },
+                    "1": {
+                        "title": "Applications Mobiles",
+                        "description": "Applications innovantes pour iOS et Android"
+                    },
+                    "2": {
+                        "title": "Informatique en Nuage",
+                        "description": "Solutions cloud sécurisées et évolutives"
+                    }
+                }
+            },
+            "about": {
+                "title": "Notre Mission",
+                "description": "Chez InnoTech, nous croyons en la puissance de l'innovation technologique pour transformer les entreprises. Notre équipe d'experts combine créativité et expertise technique pour développer des solutions numériques sur mesure."
+            },
+            "products": {
+                "title": "Nos Produits de Pointe",
+                "description": "Découvrez nos solutions innovantes conçues pour répondre aux besoins évolutifs des entreprises à l'ère numérique.",
+                "items": {
+                    "0": {
+                        "title": "Analyse Powered by AI",
+                        "description": "Exploitez la puissance de l'intelligence artificielle pour obtenir des informations précieuses de vos données."
+                    },
+                    "1": {
+                        "title": "Plateforme d'Intégration Cloud",
+                        "description": "Connectez et gérez sans effort vos processus commerciaux avec nos solutions cloud sécurisées."
+                    },
+                    "2": {
+                        "title": "Cybersécurité Avancée",
+                        "description": "Protégez vos actifs numériques avec des systèmes de sécurité de pointe et une surveillance en temps réel."
+                    }
+                }
+            },
+            "technologies": {
+                "title": "Nos Technologies"
+            },
+            "portfolio": {
+                "title": "Notre Portfolio"
+            },
+            "team": {
+                "title": "Notre Équipe"
+            }
+        },
+        "contact": {
+            "title": "Contactez-nous",
+            "name_placeholder": "Votre nom",
+            "email_placeholder": "Votre e-mail",
+            "phone_placeholder": "Votre numéro de téléphone",
+            "message_placeholder": "Votre message",
+            "submit": "Envoyer le message"
+        }
+    },
+    "ar": {
+        "nav": {
+            "home": "الصفحة الرئيسية",
+            "services": "الخدمات",
+            "about": "حول",
+            "products": "المنتجات",
+            "technologies": "التقنيات",
+            "portfolio": "المشاريع",
+            "team": "الفريق",
+            "contact": "اتصل بنا"
+        },
+        "sections": {
+            "hero": {
+                "title": "حول أفكارك إلى حلول رقمية",
+                "subtitle": "نحن نخلق تقنيات تلهم وتبتكر"
+            },
+            "services": {
+                "title": "خدماتنا",
+                "items": {
+                    "0": {
+                        "title": "تطوير الويب",
+                        "description": "حلول ويب حديثة وفعالة"
+                    },
+                    "1": {
+                        "title": "تطبيقات الهاتف المحمول",
+                        "description": "تطبيقات مبتكرة لـ iOS و Android"
+                    },
+                    "2": {
+                        "title": "الحوسبة السحابية",
+                        "description": "حلول سحابية آمنة وقابلة للتوسع"
+                    }
+                }
+            },
+            "about": {
+                "title": "مهمتنا",
+                "description": "في InnoTech، نؤمن بقوة الابتكار التكنولوجي لتحويل الأعمال. يجمع فريقنا من الخبراء بين الإبداع والخبرة التقنية لتطوير حلول رقمية مخصصة."
+            },
+            "products": {
+                "title": "منتجاتنا المتطورة",
+                "description": "اكتشف حلولنا المبتكرة المصممة لتلبية احتياجات الأعمال المتطورة في العصر الرقمي.",
+                "items": {
+                    "0": {
+                        "title": "التحليلات المدعومة بالذكاء الاصطناعي",
+                        "description": "استفد من قوة الذكاء الاصطناعي لاستخراج رؤى قيمة من بياناتك."
+                    },
+                    "1": {
+                        "title": "منصة التكامل السحابي",
+                        "description": "قم بربط وإدارة عمليات الأعمال الخاصة بك بسلاسة باستخدام حلولنا السحابية الآمنة."
+                    },
+                    "2": {
+                      "title": "الأمن السيبراني المتقدم",
+                      "description": "حافظ على أصولك الرقمية باستخدام أنظمة أمان متطورة ومراقبة في الوقت الفعلي."
                   }
-              },
-              "about": {
-                  "title": "Our Mission",
-                  "description": "At InnoTech, we believe in the power of technological innovation to transform businesses. Our team of experts combines creativity and technical expertise to develop customized digital solutions."
-              },
-              "products": {
-                  "title": "Our Products",
-                  "items": {
-                      "0": {
-                          "title": "Product 1",
-                          "description": "Description of product 1"
-                      },
-                      "1": {
-                          "title": "Product 2",
-                          "description": "Description of product 2"
-                      },
-                      "2": {
-                          "title": "Product 3",
-                          "description": "Description of product 3"
-                      }
-                  }
-              },
-              "technologies": {
-                  "title": "Our Technologies"
-              },
-              "portfolio": {
-                  "title": "Our Portfolio"
-              },
-              "team": {
-                  "title": "Our Team"
-              }
-          },
-          "contact": {
-              "title": "Contact Us",
-              "name_placeholder": "Your Name",
-              "email_placeholder": "Your Email",
-              "phone_placeholder": "Your Phone Number",
-              "message_placeholder": "Your Message",
-              "submit": "Send Message"
-          }
-      },
-      "fr": {
-          "nav": {
-              "home": "Accueil",
-              "services": "Services",
-              "about": "À propos",
-              "products": "Produits",
-              "technologies": "Technologies",
-              "portfolio": "Portfolio",
-              "team": "Équipe",
-              "contact": "Contact"
-          },
-          "sections": {
-              "hero": {
-                  "title": "Transformez Vos Idées en Solutions Numériques",
-                  "subtitle": "Nous Créons des Technologies qui Inspirent et Innovent"
-              },
-              "services": {
-                  "title": "Nos Services",
-                  "items": {
-                      "0": {
-                          "title": "Développement Web",
-                          "description": "Solutions web modernes et performantes"
-                      },
-                      "1": {
-                          "title": "Applications Mobiles",
-                          "description": "Applications innovantes pour iOS et Android"
-                      },
-                      "2": {
-                          "title": "Cloud Computing",
-                          "description": "Solutions cloud sécurisées et évolutives"
-                      }
-                  }
-              },
-              "about": {
-                  "title": "Notre Mission",
-                  "description": "Chez InnoTech, nous croyons au pouvoir de l'innovation technologique pour transformer les entreprises. Notre équipe d'experts combine créativité et expertise technique pour développer des solutions numériques personnalisées."
-              },
-              "products": {
-                  "title": "Nos Produits",
-                  "items": {
-                      "0": {
-                          "title": "Produit 1",
-                          "description": "Description du produit 1"
-                      },
-                      "1": {
-                          "title": "Produit 2",
-                          "description": "Description du produit 2"
-                      },
-                      "2": {
-                          "title": "Produit 3",
-                          "description": "Description du produit 3"
-                      }
-                  }
-              },
-              "technologies": {
-                  "title": "Nos Technologies"
-              },
-              "portfolio": {
-                  "title": "Notre Portfolio"
-              },
-              "team": {
-                  "title": "Notre Équipe"
-              }
-          },
-          "contact": {
-              "title": "Contactez-nous",
-              "name_placeholder": "Votre Nom",
-              "email_placeholder": "Votre Email",
-              "phone_placeholder": "Votre Numéro de Téléphone",
-              "message_placeholder": "Votre Message",
-              "submit": "Envoyer le Message"
-          }
-      },
-      "ar": {
-          "nav": {
-              "home": "الرئيسية",
-              "services": "خدماتنا",
-              "about": "من نحن",
-              "products": "منتجاتنا",
-              "technologies": "التقنيات",
-              "portfolio": "أعمالنا",
-              "team": "فريقنا",
-              "contact": "اتصل بنا"
-          },
-          "sections": {
-              "hero": {
-                  "title": "حول أفكارك إلى حلول رقمية",
-                  "subtitle": "نبتكر تقنيات تلهم وتبدع"
-              },
-              "services": {
-                  "title": "خدماتنا",
-                  "items": {
-                      "0": {
-                          "title": "تطوير المواقع",
-                          "description": "حلول ويب حديثة وفعالة"
-                      },
-                      "1": {
-                          "title": "تطبيقات الجوال",
-                          "description": "تطبيقات مبتكرة لـ iOS وAndroid"
-                      },
-                      "2": {
-                          "title": "الحوسبة السحابية",
-                          "description": "حلول سحابية آمنة وقابلة للتطوير"
-                      }
-                  }
-              },
-              "about": {
-                  "title": "مهمتنا",
-                  "description": "في InnoTech، نؤمن بقوة الابتكار التكنولوجي في تحويل الأعمال. يجمع فريق الخبراء لدينا بين الإبداع والخبرة التقنية لتطوير حلول رقمية مخصصة."
-              },
-              "products": {
-                  "title": "منتجاتنا",
-                  "items": {
-                      "0": {
-                          "title": "المنتج 1",
-                          "description": "وصف المنتج 1"
-                      },
-                      "1": {
-                          "title": "المنتج 2",
-                          "description": "وصف المنتج 2"
-                      },
-                      "2": {
-                          "title": "المنتج 3",
-                          "description": "وصف المنتج 3"
-                      }
-                  }
-              },
-              "technologies": {
-                  "title": "تقنياتنا"
-              },
-              "portfolio": {
-                  "title": "أعمالنا"
-              },
-              "team": {
-                  "title": "فريقنا"
-              }
-          },
-          "contact": {
-              "title": "اتصل بنا",
-              "name_placeholder": "اسمك",
-              "email_placeholder": "بريدك الإلكتروني",
-              "phone_placeholder": "رقم هاتفك",
-              "message_placeholder": "رسالتك",
-              "submit": "إرسال الرسالة"
-          }
-      }
-  };
+                }
+            },
+            "technologies": {
+                "title": "تقنياتنا"
+            },
+            "portfolio": {
+                "title": "محفظتنا"
+            },
+            "team": {
+                "title": "فريقنا"
+            }
+        },
+        "contact": {
+            "title": "اتصل بنا",
+            "name_placeholder": "اسمك",
+            "email_placeholder": "بريدك الإلكتروني",
+            "phone_placeholder": "رقم هاتفك",
+            "message_placeholder": "رسالتك",
+            "submit": "إرسال الرسالة"
+        }
+    }
+};
+
 
   const menuToggle = document.querySelector('.menu-toggle');
   const navMenu = document.querySelector('.nav-menu');
