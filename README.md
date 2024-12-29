@@ -1,20 +1,20 @@
-# InnoTech - Solutions Technologiques Innovantes
+# InnoTech - Innovative Technology Solutions
 
 ## Description
-InnoTech est une landing page moderne et réactive qui présente une entreprise de solutions technologiques. Le site met en valeur les services, la mission et les points forts de l'entreprise.
+InnoTech is a modern and responsive landing page showcasing a technology solutions company. The site highlights the company's services, mission, and key strengths.
 
-## Fonctionnalités
-- Design responsive
-- Navigation fluide
-- Animations modernes
-- Formulaire de contact interactif
-- Sections détaillées :
+## Features
+- Responsive design
+- Smooth navigation
+- Modern animations
+- Interactive contact form
+- Detailed sections:
   - Services
-  - Produits
+  - Products
   - Technologies
   - Portfolio
-  - Équipe
-- Interactions dynamiques (prévisualisation d'images, cartes interactives)
+  - Team
+- Dynamic interactions (image previews, interactive maps)
 
 ## Multilingual Support
 - Supports 3 languages: English, French, Arabic
@@ -27,20 +27,20 @@ InnoTech est une landing page moderne et réactive qui présente une entreprise 
   - Section headings
   - Content descriptions
 
-## Technologies Utilisées
+## Technologies Used
 - HTML5
-- CSS3 (avec animations et transitions)
-- JavaScript moderne
+- CSS3 (with animations and transitions)
+- Modern JavaScript
 - Google Fonts
 - Font Awesome Icons
 
 ## Installation
-1. Clonez le repository
-2. Ouvrez `index.html` dans votre navigateur
+1. Clone the repository.
+2. Open `index.html` in your browser.
 
-## Personnalisation
-Modifiez `styles.css` pour personnaliser les couleurs et le design.
-Modifiez `script.js` pour ajouter des fonctionnalités interactives.
+## Customization
+Modify `styles.css` to customize colors and design.  
+Modify `script.js` to add interactive features.
 
-## Licence
-Projet open-source - Libre utilisation et modification
+## License
+Open-source project - Free to use and modify.
