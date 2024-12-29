@@ -942,3 +942,17 @@ html[lang='ar'] .mobile-language-selector {
     z-index: 1002;
     transition: width 0.3s ease;
 }
+
+.footer-language-selector{
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: var(--radius-md);
+    background-color: white;
+    color: var(--text-primary);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: var(--transition);
+    outline: none;
+    margin-left: 1rem;
+}

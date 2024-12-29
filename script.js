@@ -229,11 +229,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const menuToggle = document.querySelector('.menu-toggle');
   const navMenu = document.querySelector('.nav-menu');
   const languageSelector = document.getElementById('language-selector');
+  const footerLanguageSelector = document.querySelector('#footer-language-selector');
 
   // updateLg
   function updateLanguage(lang) {
       document.documentElement.lang = lang;
       languageSelector.value = lang;
+      footerLanguageSelector.value = lang;
       document.querySelectorAll('[data-translate]').forEach(element => {
           const key = element.getAttribute('data-translate');
           const keys = key.split('.');
@@ -285,6 +287,10 @@ document.addEventListener('DOMContentLoaded', () => {
   languageSelector.addEventListener('change', (e) => {
       updateLanguage(e.target.value);
   });
+
+  footerLanguageSelector.addEventListener('change', (e) => {
+    updateLanguage(e.target.value);
+});
 
   // scrolling
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
