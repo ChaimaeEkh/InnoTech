@@ -1,0 +1,122 @@
+{
+    "name": "innotech-multilingual-website",
+    "version": "1.0.0",
+    "description": "Multilingual technology company website",
+    "main": "index.html",
+    "scripts": {
+        "start": "open index.html"
+    },
+    "keywords": ["multilingual", "website", "translation"],
+    "author": "InnoTech Team",
+    "license": "MIT",
+    "translations": {
+        "en": {
+            "nav": {
+                "home": "Home",
+                "services": "Services",
+                "about": "About",
+                "products": "Products",
+                "technologies": "Technologies",
+                "portfolio": "Portfolio",
+                "team": "Team",
+                "contact": "Contact"
+            },
+            "sections": {
+                "hero": {
+                    "title": "Welcome to InnoTech",
+                    "subtitle": "Innovative Solutions for Your Digital Needs"
+                },
+                "services": {
+                    "title": "Our Services",
+                    "web": "Web Development",
+                    "mobile": "Mobile Applications",
+                    "cloud": "Cloud Computing"
+                },
+                "about": {
+                    "title": "About Us",
+                    "description": "We are a team of passionate developers creating innovative solutions."
+                }
+            },
+            "contact": {
+                "title": "Contact Us",
+                "name_placeholder": "Your Name",
+                "email_placeholder": "Your Email",
+                "phone_placeholder": "Your Phone Number",
+                "message_placeholder": "Your Message",
+                "submit": "Send Message"
+            }
+        },
+        "fr": {
+            "nav": {
+                "home": "Accueil",
+                "services": "Services",
+                "about": "À propos",
+                "products": "Produits",
+                "technologies": "Technologies",
+                "portfolio": "Portfolio",
+                "team": "Équipe",
+                "contact": "Contact"
+            },
+            "sections": {
+                "hero": {
+                    "title": "Bienvenue chez InnoTech",
+                    "subtitle": "Solutions Innovantes pour vos Besoins Numériques"
+                },
+                "services": {
+                    "title": "Nos Services",
+                    "web": "Développement Web",
+                    "mobile": "Applications Mobiles",
+                    "cloud": "Cloud Computing"
+                },
+                "about": {
+                    "title": "À Propos de Nous",
+                    "description": "Nous sommes une équipe de développeurs passionnés créant des solutions innovantes."
+                }
+            },
+            "contact": {
+                "title": "Contactez-nous",
+                "name_placeholder": "Votre Nom",
+                "email_placeholder": "Votre Email",
+                "phone_placeholder": "Votre Numéro de Téléphone",
+                "message_placeholder": "Votre Message",
+                "submit": "Envoyer le Message"
+            }
+        },
+        "ar": {
+            "nav": {
+                "home": "الرئيسية",
+                "services": "خدماتنا",
+                "about": "من نحن",
+                "products": "منتجاتنا",
+                "technologies": "التقنيات",
+                "portfolio": "أعمالنا",
+                "team": "فريقنا",
+                "contact": "اتصل بنا"
+            },
+            "sections": {
+                "hero": {
+                    "title": "مرحباً بكم في InnoTech",
+                    "subtitle": "حلول مبتكرة لاحتياجاتكم الرقمية"
+                },
+                "services": {
+                    "title": "خدماتنا",
+                    "web": "تطوير المواقع",
+                    "mobile": "تطبيقات الجوال",
+                    "cloud": "الحوسبة السحابية"
+                },
+                "about": {
+                    "title": "من نحن",
+                    "description": "نحن فريق من المطورين المتحمسين نقدم حلولاً مبتكرة."
+                }
+            },
+            "contact": {
+                "title": "اتصل بنا",
+                "name_placeholder": "اسمك",
+                "email_placeholder": "بريدك الإلكتروني",
+                "phone_placeholder": "رقم هاتفك",
+                "message_placeholder": "رسالتك",
+                "submit": "إرسال الرسالة"
+            }
+        }
+    }
+}
